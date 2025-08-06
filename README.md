@@ -61,11 +61,10 @@ Open **Command Prompt** or **PowerShell** and run:
 docker run hello-world
 ```
 
-## Step 8: Run the docker compose file with this command:
+## Step 8: clone this repository and run this command in the smae folder in cmd terminal:
 
 
 ```bash
-docker compose up
+docker compose -f keycloak-db-image-compose.yaml up
 ```
 
-This  will start keycloak and postgres on ports 8080 and 5432 on your system.
